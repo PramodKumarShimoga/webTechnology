@@ -1,0 +1,56 @@
+form{
+    background-color: aquamarine;
+    margin:auto;
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.img{
+    margin: 80px;
+}
+img{
+    position:relative;
+    border-radius: 80%;
+    width: 500px;
+    height: 400px;
+}
+body{
+    margin:20px;
+}
+
+.textprop{
+    position:absolute;
+    top: 100px;
+    left: 400px;
+    font-size:20px;
+    color: rgb(246, 6, 6) ;
+    padding: 10px;
+}
+.textprop1{
+    position:absolute;
+    top: 120px;
+    left: 420px;
+    font-size:20px;
+    color: rgb(246, 6, 6) ;
+    padding: 10px;
+}
+.textprop2{
+    position:absolute;
+    top: 140px;
+    
+    left: 440px;
+    font-size:20px;
+    color: rgb(246, 6, 6) ;
+    padding: 10px;
+}
+.textprop3{
+    position:absolute;
+    top: 160px;
+    
+    left: 460px;
+    font-size:20px;
+    color: rgb(246, 6, 6) ;
+    padding: 10px;
+}

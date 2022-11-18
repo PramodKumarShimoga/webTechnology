@@ -1,0 +1,88 @@
+
+/* Descendant Selector */
+div p{
+    color:green;
+}
+
+/* Child Selector */
+div > p{
+    color:red;
+}
+
+/* Adjacent-Sibling Selector */
+/* next to the div tag and it will take only one next to divtag */
+div + p{
+    color: blue;
+}
+
+/* General sibling Selector */
+
+div ~p{
+    /* color: brown; */
+    /* color:rgb(82, 72, 80); */
+    color:rgb(4, 78, 71);
+}
+
+/* Color Property
+  rgba
+  hexadecimal
+
+*/
+
+/* position 
+ property  top,bottom,right,left
+ */
+
+.static{
+    position: relative;
+    left: 100px;
+    right: 100px;
+}
+
+.relat{
+    position: relative;
+    
+    left: 500px;
+    top:100px;
+}
+
+/* absolute */
+.abs{
+    position: absolute;
+    top: 0px;    left: 700px;
+    right: 100px;
+}
+.imgproperty{
+    position:relative;
+}
+.textprop{
+    position:absolute;
+    top: 0;
+    right: -10px;
+    left: 0px;
+    font-size:110px;
+    color: rgb(246, 6, 6) ;
+}
+body{
+    margin:0;
+}
+
+.imgcir{
+
+    border-radius: 80%;
+}
+.fixed{
+    position: relative;
+    top:80px;
+    right:20px;
+    left:10px;
+    background-color: greenyellow;
+}
+.sticky{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}

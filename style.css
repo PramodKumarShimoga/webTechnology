@@ -1,0 +1,118 @@
+        body{
+            background-color: aqua;
+        }
+         h1{
+            float:right;
+            color: black;
+            font-size: 50px;
+            text-transform: uppercase;
+         }
+         h2{
+            /* float:right; */
+            color: blue;
+            font-size: 50px;
+            text-transform: lowercase;
+         }
+         h3{
+            /* float:right; */
+            color:red;
+            font-size: 100px;
+            text-transform: uppercase;
+         }
+         h4,h5,h6,p{
+            text-shadow: blue;
+            color: brown;
+            font-size: 50px;
+            text-transform: lowercase;
+         }
+         .cs{
+            color:green;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration: underline;
+            text-decoration:overline;
+         }
+         .cs1{
+            color:black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration: underline;
+            /* text-decoration:overline; */
+         }
+         #cs2{
+            color:orangered;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            /* text-decoration: underline; */
+            text-decoration:overline;
+         }
+         .box{
+            background-color: blue;
+            padding : 30px;
+            font-size: 50px;
+
+         }
+         .navigation{
+             background-image: url("proresult.png"); 
+            
+            padding:50px;
+            background-color: chartreuse;
+            text-decoration: solid;
+            font-size: 50px;
+            border: 10px  solid black;
+            margin:30px;
+         }
+
+         .rect{
+            float: left;
+            border: 10px solid black;
+            height: 200px;
+            width: 500px;
+            margin: 200px;
+         }
+
+        
+         .rectin{
+            border: 5px solid black;
+            padding-left: 30px;
+            margin: 40px;
+            /* padding: 5px; */
+            height: 100px;
+            width: 300px;
+         }
+
+         .p{
+            background-image: url("proresult.png"); 
+            height: 100%;
+            width:;
+            
+         }
+
+         .rect5{
+            border: 2px solid black;
+            width:200px;
+            height: 200px;
+            display:inline-block;
+
+
+         }
+         .rect6{
+            border: 2px solid black;
+            width:200px;
+            height: 200px;
+            display:inline-block;
+            
+
+         }
+         
+/* CSS combinator
+
+ Selector 
+    element -selector 
+    
+    1.Descendent Selector
+    2.Child  Selecotr
+    3.Adjacent-Sibling Selector
+    4.Color property
+    
+    
+    
+    
+    */

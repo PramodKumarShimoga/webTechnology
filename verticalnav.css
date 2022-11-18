@@ -1,0 +1,45 @@
+ ul {
+    overflow: hidden;
+    background-color:black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 800px;
+  
+  }
+  
+ li {
+    
+    float: left;
+  }
+  
+  li a {
+    color:white;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ li a:hover {
+    background-color: orange;
+  }
+  
+   #sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+   }
+
+   form{
+    position:absolute;
+    top:20px;
+    left:180px;
+    border: 2px solid black;
+    margin: auto;
+    width: 800px;
+   }

@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+body{
+    margin-left: 20px;
+}
+form{
+    background-color: antiquewhite;
+    margin:auto;
+    width: 800px;
+    border: 2px solid black;
+    padding: 30px;
+}
+.he,.hp,.hd,.hc,.ho,.hts,{
+    margin: 40px;
+}
+.mail{
+    color: blue;
+}
+.sign{
+    float:right;
+}
+img{
+    height:100px;
+    width:100px;
+}
+.imgs{
+    position: absolute;
+     top:5px;
+     right:260px;
+     padding: 20px;
+}
+.m,.n{
+     
+    display:inline-block;
+}
+.p,.q{
+     
+    display:inline-block;
+}
